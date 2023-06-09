@@ -1,0 +1,73 @@
+body {
+    border: 2px solid darkgray;
+    background-color: rgb(195, 190, 190);
+}
+
+h1,
+h2,
+#top_film {
+    display: flex;
+}
+
+h1,
+h2 {
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.3em;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 200;
+}
+
+ol,
+#top_film {
+    width: 80%;
+    margin-left: 30px;
+}
+
+li {
+    border-top: 2px solid black;
+    padding-bottom: 25px;
+}
+
+#top_film {
+    margin: 0 auto 15px;
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+.each_name {
+    font-size: 1.4em;
+    font-weight: 550;
+}
+
+.each_career {
+    font-size: 0.9em;
+    margin-top: 0;
+    color: rgb(234, 237, 240);
+    font-weight: 700;
+}
+
+p {
+    margin: 5px;
+}
+
+.career_films {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_filmsDir {
+    display: flex;
+
+}
+
+a {
+    color: inherit;
+}
